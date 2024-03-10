@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#contact{
+    width: 100%;
+    height: 900px;
+    /* border-bottom: 2px solid white; */
+    line-height: 10vw;
+    /* overflow: hidden; */
+    color: white;
+    padding: 2vw 1vw;
+}
+
+#contact .links{
+    width: 100%;
+    /* height: 450px; */
+}
+
+#contact h1{
+    font-size: 8vw;
+}
+
+#contact h2{
+    font-size: 8vw;
+}
+
+#contact h2 span{
+    color: rgb(230, 82, 28);
+}
+
+#contact span{
+    cursor: pointer;
+}
+
+#contact h3{
+    font-size: 8vw;
+}
+
+#contact h3 span:first-child a{
+    color: rgb(218, 140, 39);
+}
+
+#contact h3 span:first-child{
+    color: rgb(218, 140, 39);
+}
+
+#contact h3 span:last-child a{
+    color: aqua;
+}
+
+#contact h3 span:last-child{
+    color: aqua;
+}
+
+#contact span:hover{
+    text-decoration: line-through;
+}
+
+.forms{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forms .map{
+    width: 50%;
+    height: 100%;
+    border: 2px solid white;
+    margin-top: 0.6vw;
+    border-radius: 5px;
+}
+
+.forms .map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.forms form{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid white; */
+    padding: 2vw;
+}
+
+.forms form .formdiv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 2px solid white; */
+}
+
+form .formdiv input{
+    width: 80%;
+    height: 2vw;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    padding-left: 5px;
+}
+
+form .formdiv input:focus{
+    border: 2px solid cyan;
+}
+
+.formdiv input::placeholder{
+    font-size: 1.2vw;
+}
+
+form .formdiv textarea{
+    width: 80%;
+    border-radius: 3px;
+    padding-left: 5px;
+    outline: none;
+    border: none;
+}
+
+form .formdiv textarea:focus{
+    border: 2px solid cyan;
+}
+
+.formdiv textarea::placeholder{
+    font-size: 1.2vw;
+}
+
+form .formdiv button{
+    font-size: 1.2vw;
+    padding: 0.5vw 1vw;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(28, 28, 165);
+    color: white;
+}
+
+form .formdiv button:hover{
+    background-color: blue;
+}
+
+
+
+@media (max-width:1326px) {
+    #contact{
+        padding: 1vw;
+        height: auto;
+    }
+    #contact .links{
+        height: auto;
+    }
+}
+  
+@media (max-width: 1100px) {
+    form .formdiv input{
+        width: 80%;
+        height: 3vw;
+        margin-bottom: 1rem;
+    }
+    form .formdiv input::placeholder{
+        font-size: 1.5vw;
+    }
+    form .formdiv textarea::placeholder{
+        font-size: 1.5vw;
+    }
+    form .formdiv button{
+        margin: 1rem 0;
+        font-size: 1.5vw;
+    }
+}
+  
+@media (max-width: 768px) {
+    /* #contact{
+        padding: 1vw;
+        height: auto;
+    }
+    #contact .links{
+        height: auto;
+    } */
+    .forms{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .forms .map{
+        width: 70%;
+        height: 100px;
+        height: 40vw;
+    }
+    .forms form{
+        width: 100%;
+    }
+    form .formdiv input{
+        width: 73%;
+        height: 4vw;
+        margin-bottom: 1rem;
+    } 
+    form .formdiv textarea{
+        width: 73%;
+    }
+    form .formdiv input::placeholder{
+        font-size: 2vw;
+    }
+    form .formdiv textarea::placeholder{
+        font-size: 2vw;
+    }
+    form .formdiv button{
+        margin: 1rem 0;
+        font-size: 2vw;
+    }
+}
+  
+@media (max-width: 600px) {
+    
+}

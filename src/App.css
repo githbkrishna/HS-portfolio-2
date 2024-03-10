@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0 2vw;
+  background-color: #0a1133;
+}
+
+.App{
+  position: relative;
+}
+
+.crsr{
+  width: 40px;
+  height: 40px;
+  background-color: rgb(30, 255, 0);
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  mix-blend-mode: difference;
+}

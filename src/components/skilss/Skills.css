@@ -1,0 +1,65 @@
+#skills{
+    width: 100%;
+    height: 450px;
+    /* background-color: #151531; */
+    /* border-bottom: 2px solid white; */
+}
+
+.skilcont{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.skillbox{
+    width: 180px;
+    height: 150px;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(12, 12, 116);
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.6vw;
+    border-radius: 10px;
+}
+
+.skillbox:hover{
+    background-color: rgb(5, 5, 63);
+}
+
+.skillbox:hover  img{
+    scale: 1.4;
+}
+
+
+@media (max-width: 1248px) {
+    #skills{
+        height: auto;
+        /* border-bottom: 2px solid white; */
+        margin: 2rem 0;
+    }
+    .skilcont{
+        gap: 2vw;
+    }
+}
+
+  
+@media (max-width: 920px) {
+    .skillbox{
+        font-size: 2vw !important;
+    }
+}
+
+  
+@media (max-width: 748px) {
+    .skillbox{
+        font-size: 2.5vw !important;
+    }
+}

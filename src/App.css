@@ -15,8 +15,8 @@ body {
 }
 
 .crsr{
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   background-color: rgb(30, 255, 0);
   border-radius: 50%;
   color: white;

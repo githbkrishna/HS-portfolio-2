@@ -11,33 +11,36 @@ import Skills from './components/skilss/Skills'
 
 function App() {
 
-  let crsr = document.querySelector(".crsr")
+  // // let crsr = document.querySelector(".crsr")
+  // let circle = document.querySelector(".crsr")
 
-  useEffect(()=>{
+  // useEffect(()=>{
 
-    document.addEventListener('mousemove', (dets) => {
+  //   document.addEventListener('mousemove', (dets) => {
 
-      // 1st way
-      // crsr.style.left = dets.x+"px"
-      // crsr.style.top = dets.y+"px"
+  //     // // 1st way
+  //     // setTimeout(()=>{
+  //     //   crsr.style.left = dets.x+"px"
+  //     //   crsr.style.top = dets.y+"px"
+  //     // })
+      
+  //     // 2nd way
+  //     const height = circle.offsetheight;
+  //     const width = circle.offsetwidth;
 
-      // 2nd way
-      const height = circle.offsetheight;
-      const width = circle.offsetwidth;
+  //     setTimeout(()=>{
+  //       circle.style.left = `${dets.pagex - height/2}px`
+  //       circle.style.top = `${dets.pagey - width/2}px`
+  //     },20)
 
-      setTimeout(()=>{
-        circle.style.left = `${dets.pagex - height/2}px`
-        circle.style.top = `${dets.pagey - width/2}px`
-      },20)
+  //   })  
 
-    })  
-
-  },['mousemove'])
+  // },[])
     
   return (
     <div className='App'>
 
-      <div className='crsr'></div>
+      {/* <div className='crsr'></div> */}
 
       <div className='mainbody'>
 
@@ -45,7 +48,7 @@ function App() {
 
         <Home/>
 
-        <About/>
+        {/* <About/> */}
 
         <Education/>
 

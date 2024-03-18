@@ -4,7 +4,7 @@ section{
     /* background-color: #fff; */
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     /* border-bottom: 2px solid white; */
 }
 
@@ -15,6 +15,15 @@ section .homecont{
     padding: 5rem 2vw;
     letter-spacing: 4px;
     line-height: 30px;
+}
+
+section .homecont .h2{
+    margin: 10px 0;
+    /* line-height: 3vw; */
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    font-weight: 900;
+    font-size: 30px;
 }
 
 /* .homecont h1:nth-child(1){

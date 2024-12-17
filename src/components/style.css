@@ -672,7 +672,7 @@ section img{
     height: 100%;
     border: 2px solid white;
     margin-top: 0.6vw;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
 .forms .map iframe{
@@ -702,7 +702,7 @@ form .formdiv input{
     height: 2vw;
     outline: none;
     border: none;
-    border-radius: 3px;
+    /* border-radius: 3px; */
     padding-left: 5px;
 }
 
@@ -711,23 +711,25 @@ form .formdiv input:focus{
 }
 
 .formdiv input::placeholder{
-    font-size: 1.2vw;
+    font-size: 15px;
+    color: #000;
 }
 
 form .formdiv textarea{
     width: 80%;
-    border-radius: 3px;
+    /* border-radius: 3px; */
     padding-left: 5px;
     outline: none;
     border: none;
 }
 
-form .formdiv textarea:focus{
+/* form .formdiv textarea:focus{
     border: 2px solid cyan;
-}
+} */
 
 .formdiv textarea::placeholder{
-    font-size: 1.2vw;
+    font-size: 15px;
+    color: #000;
 }
 
 form .formdiv button{
@@ -873,9 +875,13 @@ footer .foots{
     padding: 2vw 0;
 }
 
+.social li{
+    transform: scale(1.2);
+}
+
 .social li a{
-    font-size: 2vw;
-    padding: 10px;
+    font-size: 25px;
+    padding: 7px 10px;
     border: 1px solid white;
     border-radius: 50%;
 }

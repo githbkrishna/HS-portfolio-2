@@ -19,9 +19,9 @@ const Contact = () => {
         </div>
         <form action="" method='POST'>
           <div className='formdiv'>
-            <input type="text" name='fullname' placeholder='enter name'/>
-            <input type="text" name='email' placeholder='enter email'/>
-            <textarea name="textarea" id="" cols="30" rows="10" placeholder='tell me query'></textarea>
+            <input type="text" name='fullname' placeholder='Enter name'/>
+            <input type="text" name='email' placeholder='Enter email'/>
+            <textarea name="textarea" id="" cols="30" rows="10" placeholder='Tell me query...'></textarea>
             <button>submit</button>
           </div>
         </form>

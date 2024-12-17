@@ -1,5 +1,5 @@
 import React from 'react'
-import './Contact.css'
+import "../style.css";
 
 const Contact = () => {
   return (
@@ -9,7 +9,7 @@ const Contact = () => {
         <h2>with me via 
           <span><a href="https://github.com/githbkrishna">github</a></span></h2>
         <h3>
-          or <span><a href="mailto:krishna636471@gmail.com">mail</a></span> 
+          or <span><a href="mailto:krishna636471@gmail.com">mail</a> </span> 
           or <span><a href="https://www.linkdin.com/in/hariomsingh97?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='blank'>linkedIn</a></span>.
         </h3>
       </div>

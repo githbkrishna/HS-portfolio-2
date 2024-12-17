@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import logoo from '../../assets/new.png'
-import './Nav.css'
+import "../style.css";
 import ScrollReveal from 'scrollreveal'
 
 function Nav() {

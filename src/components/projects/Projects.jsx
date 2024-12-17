@@ -1,5 +1,5 @@
 import React from 'react'
-import './Projects.css'
+import "../style.css";
 
 const Projects = () => {
   return (
@@ -10,12 +10,6 @@ const Projects = () => {
                 <a href="#">
                     <span>2024</span>
                     <h2>React Ecom website</h2>
-                </a>
-            </div>
-            <div class="contain">
-                <a href="https://radiant-assign.netlify.app/" target='blank'>
-                    <span>2024</span>
-                    <h2>React Radiant Assign</h2>
                 </a>
             </div>
             <div class="contain">
@@ -31,21 +25,33 @@ const Projects = () => {
                 </a>
             </div>
             <div class="contain">
+                <a href="https://githbkrishna.github.io/fanta-gsap/" target='blank'>
+                    <span>2024</span>
+                    <h2>fanta GSAP</h2>
+                </a>
+            </div>
+            <div class="contain">
                 <a href="https://githbkrishna.github.io/coursera-clone/" target='blank'>
                     <span>2024</span>
                     <h2>coursera functionality</h2>
                 </a>
             </div>
             <div class="contain">
-                <a href="https://githbkrishna.github.io/medicalRE/" target='blank'>
-                    <span>2024</span>
-                    <h2>Responsive medical website</h2>
-                </a>
-            </div>
-            <div class="contain">
                 <a href="https://assnetart.netlify.app/" target='blank'>
                     <span>2024</span>
                     <h2>React Netart Assign</h2>
+                </a>
+            </div>
+            <div class="contain">
+                <a href="https://radiant-assign.netlify.app/" target='blank'>
+                    <span>2024</span>
+                    <h2>React Radiant Assign</h2>
+                </a>
+            </div>
+            <div class="contain">
+                <a href="https://githbkrishna.github.io/medicalRE/" target='blank'>
+                    <span>2024</span>
+                    <h2>Responsive medical website</h2>
                 </a>
             </div>
         </div>

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 // import { FontawesomeObject } from '@fortawesome/fontawesome-svg-core';
-import "./Skills.css";
+import "../style.css";
 import ScrollReveal from "scrollreveal";
 
 const Skills = () => {

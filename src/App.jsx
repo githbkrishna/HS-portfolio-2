@@ -1,13 +1,13 @@
 import { useEffect } from 'react'
 import './App.css'
 import About from './components/about/About'
-import Contact from './components/contact/Contact'
-import Education from './components/education/Education'
-import Footer from './components/footer/Footer'
-import Home from './components/home/Home'
-import Nav from './components/nav/Nav'
-import Projects from './components/projects/Projects'
-import Skills from './components/skilss/Skills'
+import Contact from './components/Contact'
+import Education from './components/Education'
+import Footer from './components/Footer'
+import Home from './components/Home'
+import Nav from './components/Nav'
+import Projects from './components/Projects'
+import Skills from './components/Skills'
 
 function App() {
 

@@ -25,3 +25,7 @@ body {
   left: 0;
   mix-blend-mode: difference;
 }
+
+button{
+  cursor: pointer;
+}

@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../style.css";
+import "./style.css";
 import ScrollReveal from "scrollreveal";
 
 const Education = () => {

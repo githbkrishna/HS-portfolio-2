@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
-import home from '../../assets/home.png'
-import "../style.css";
+import home from '../assets/home.png'
+import "./style.css";
 import Typed from 'typed.js';
 import ScrollReveal from 'scrollreveal'
 

@@ -1,24 +1,24 @@
 import React, { useEffect } from "react";
 // import { FontawesomeObject } from '@fortawesome/fontawesome-svg-core';
-import "../style.css";
+import "./style.css";
 import ScrollReveal from "scrollreveal";
 
 const Skills = () => {
 
   const skilldata = [
     {
-      name: "HTML5",
+      name: "HTML",
       icon: "https://img.icons8.com/color/48/000000/html-5--v1.png",
     },
     {
-      name: "CSS3",
+      name: "CSS",
       icon: "https://img.icons8.com/color/48/000000/css3.png",
     },
     {
       name: "JavaScript",
       icon: "https://img.icons8.com/color/48/000000/javascript--v1.png",
     },
-    {
+    { 
       name: "jQuery",
       icon: "https://img.icons8.com/ios-filled/48/1169ae/jquery.png",
     },
@@ -29,6 +29,10 @@ const Skills = () => {
     {
       name: "Redux",
       icon: "https://img.icons8.com/color/48/000000/redux.png",
+    },
+    {
+      name: "React Native",
+      icon: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png",
     },
     {
       name: "MaterialUI",
@@ -48,6 +52,14 @@ const Skills = () => {
     },
     {
       name: "GitHub",
+      icon: "https://img.icons8.com/glyph-neue/48/ffffff/github.png",
+    },
+    {
+      name: "Figma",
+      icon: "https://img.icons8.com/glyph-neue/48/ffffff/github.png",
+    },
+    {
+      name: "Canva",
       icon: "https://img.icons8.com/glyph-neue/48/ffffff/github.png",
     },
     {
